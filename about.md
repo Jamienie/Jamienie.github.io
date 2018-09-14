@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently studying Master of Data Science at University of British Columbia. I have previously completed a Bachelor of Science, with a major in Actuarial Science, at University of Regina.  I have always had a passion for data and analytics. I believe that data science can be applied to many different domains; data and analytics can have a real influence on the decisions businesses take and how they are implemented.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+8 years of experience in the insurance, pension and finance industry
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jamienie@gmail.com](mailto:jamienie@gmail.com)
