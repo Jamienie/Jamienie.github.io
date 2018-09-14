@@ -2,7 +2,7 @@
 layout: post
 title: Python List
 ---
-<body style="background-color:MediumSeaGreen;">
+<style="background-color:MediumSeaGreen;">
 <p style="color:blue;"> What is a list? .</p>
 
 We all know what a list is. We probably make lists everyday -  grocery shopping list, to do list, emails, song playlists, etc. I cannot imagine going into a grocery store without a shopping list.  I would scratch my head standing in front aisles of products without a list. Lists are fundamental on our daily life.
@@ -61,4 +61,3 @@ Imagine how much time we would save if we need to repeat some items 100 times, 1
 If we want to delete a specific list item, then we can use del statement. Say, I don’t need to buy lipstick this time.  Let us delete lipstick from the list.
 
 
-</body>
