@@ -2,7 +2,7 @@
 layout: post
 title: Python List
 ---
-<style="background-color:MediumSeaGreen;">
+
 <p style="color:blue;"> What is a list? .</p>
 
 We all know what a list is. We probably make lists everyday -  grocery shopping list, to do list, emails, song playlists, etc. I cannot imagine going into a grocery store without a shopping list.  I would scratch my head standing in front aisles of products without a list. Lists are fundamental on our daily life.
@@ -29,6 +29,8 @@ Well, let’s think about our shopping list for a second. In order to make enoug
 
 ![images]({{ site.baseurl }}/images/len command.png)
 
+<i><b>Indexing</b></i>
+
 In Python, each item in a list is given an index number, starting 0. In this way, we are able to access items individually.
 
 ![images]({{ site.baseurl }}/images/index table.png)
@@ -36,6 +38,8 @@ In Python, each item in a list is given an index number, starting 0. In this way
 Now we can call any item of the shopping list by referring to its index number. 
 
 ![images]({{ site.baseurl }}/images/called index 0 and 7.png)
+
+<i><b>Updating</b></i>
 
 What if I want to add chocolate to my shopping list? Do I have to make a new list with chocolate added? No. We just need to `append` the new item (chocolate) to our existing shopping list.
 
@@ -57,7 +61,41 @@ Lists also respond to `*` operator. For example, if we need to create a list lik
 
 Imagine how much time we would save if we need to repeat some items 100 times, 1000 times, 10,000 times!
 
+<i><b>Deleting</b></i>
 
-If we want to delete a specific list item, then we can use del statement. Say, I don’t need to buy lipstick this time.  Let us delete lipstick from the list.
+Let's go back to our shopping list. Can I remove lipstick from the list using List in Python? 
 
+![images]({{ site.baseurl }}/images/lipstick deleted.png)
+
+`del` statement removes an item from list without printing out the deleted item. When we run `del`, there is no output. 
+`.pop()` method can also delete item from the list. But the difference is `.pop()` output the item being deleted and deletes it from the list.
+
+![images]({{ site.baseurl }}/pop bread.png)
+
+`del` and `.pop()` methods work well when we know the index number of the item that is to be deleted. Sometimes, we don’t know the index number, can we still delete items from the list? Yes, we can. We will need to use `.remove()` to remove the object at its 1st time matches.
+
+![images]({{ site.baseurl }}/removed juice.png)
+
+<i><b>Reversing</b></i>
+
+Another useful list method is `.reverse()`. `.reserve()` statement reverses itemss in place. For example, I want to start shopping from bueaty product first,i.e. mascara. We would wirte it as follows:
+
+![images]({{ site.baseurl }}/reversed list.png)
+
+<i><b>Sorting</b></i>
+
+Python lis has a couple of ways of sorting items in a list. They are `.sort()` and `sorted`. If we want to sort items in place, then we use .sort(). If we want to create an sorted list, we will use sorted().
+
+![images]({{ site.baseurl }}/sort list.png)
+
+![images]({{ site.baseurl }}/sorted list.png)
+
+<i><b>Counting</b></i>
+
+On our number_list above, we can see that there are some duplicates. `.count()` gives us a easy method to count the number of times a item appears in the list.
+
+![images]({{ site.baseurl }}/counted.png)
+
+The list in Python is a very powerful tool and there are a lot more to explore on List. 
+I am very happy to share some of the methods there. I hope you enjoyed it. 
 
