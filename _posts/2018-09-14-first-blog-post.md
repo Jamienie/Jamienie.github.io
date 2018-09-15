@@ -35,7 +35,7 @@ In Python, each item in a list is given an index number, starting 0. In this way
 
 ![images]({{ site.baseurl }}/images/index table.png)
 
-Now we can call any item of the shopping list by referring to its index number. 
+Now we can call any item in the shopping list by referring to its index number. 
 
 ![images]({{ site.baseurl }}/images/called index 0 and 7.png)
 
@@ -68,7 +68,7 @@ Let's go back to our shopping list. Can I remove lipstick from the list using Li
 ![images]({{ site.baseurl }}/images/lipstick deleted.png)
 
 `del` statement removes an item from list without printing out the deleted item. When we run `del`, there is no output. 
-`.pop()` method can also delete item from the list. But the difference is `.pop()` output the item being deleted and deletes it from the list.
+`.pop()` method can also delete item from the list. But the difference is `.pop()` outputs the item being deleted and deletes it from the list.
 
 ![images]({{ site.baseurl }}/pop bread.png)
 
@@ -78,13 +78,14 @@ Let's go back to our shopping list. Can I remove lipstick from the list using Li
 
 <i><b>Reversing</b></i>
 
-Another useful list method is `.reverse()`. `.reserve()` statement reverses itemss in place. For example, I want to start shopping from bueaty product first,i.e. mascara. We would wirte it as follows:
+Another useful list method is `.reverse()`. 
+`.reserve()` statement reverses items in place. For example, I want to start shopping from beauty product first,i.e. mascara. We would wirte it as follows:
 
 ![images]({{ site.baseurl }}/reversed list.png)
 
 <i><b>Sorting</b></i>
 
-Python lis has a couple of ways of sorting items in a list. They are `.sort()` and `sorted`. If we want to sort items in place, then we use .sort(). If we want to create an sorted list, we will use sorted().
+Python list has a couple of ways of sorting items. They are `.sort()` and `sorted`. If we want to sort items in place, then we use .sort(). If we want to create an sorted list, we will use sorted().
 
 ![images]({{ site.baseurl }}/sort list.png)
 
