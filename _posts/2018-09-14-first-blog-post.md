@@ -5,11 +5,11 @@ title: Python List
 
 <p style="color:blue;"> What is a list? .</p>
 
-We all know what a list is. We probably make lists everyday -  grocery shopping list, to do list, emails, song playlists, etc. I cannot imagine going into a grocery store without a shopping list.  I would scratch my head standing in front aisles of products without a list. Lists are fundamental on our daily life.
+We all know what a list is. We probably make lists every day -  grocery shopping list, to do list, emails, song playlists, etc. I cannot imagine going into a grocery store without a shopping list.  I would scratch my head standing in front aisles of products without a list. Lists are fundamental to our daily life.
 
 ![images]({{ site.baseurl }}/images/shopping list.png)
 
-[source](https://www.flyintotheworld.com/dr-oz-10-day-belly-slimdown-plan-alcohol-salty-food/dr-oz-10-day-belly-slimdown-plan-alcohol-salty-food-1/)
+[source](https://myscres.com/)
 
 <p style="color:red;"> So what is a list in Python? .</p>
 
@@ -35,7 +35,7 @@ In Python, each item in a list is given an index number, starting 0. In this way
 
 ![images]({{ site.baseurl }}/images/index table.png)
 
-Now we can call any item in the shopping list by referring to its index number. 
+Now we can call any item on the shopping list by referring to its index number. 
 
 ![images]({{ site.baseurl }}/images/called index 0 and 7.png)
 
@@ -67,8 +67,8 @@ Let's go back to our shopping list. Can I remove lipstick from the list using Li
 
 ![images]({{ site.baseurl }}/images/lipstick deleted.png)
 
-`del` statement removes an item from list without printing out the deleted item. When we run `del`, there is no output. 
-`.pop()` method can also delete item from the list. But the difference is `.pop()` outputs the item being deleted and deletes it from the list.
+`del` statement removes an item from a list without printing out the deleted item. When we run `del`, there is no output. 
+`.pop()` statement can also delete an item from the list. But the difference is `.pop()` outputs the item being deleted and deletes it from the list.
 
 ![images]({{ site.baseurl }}/pop bread.png)
 
@@ -93,7 +93,7 @@ Python list has a couple of ways of sorting items. They are `.sort()` and `sorte
 
 <i><b>Counting</b></i>
 
-On our number_list above, we can see that there are some duplicates. `.count()` gives us a easy method to count the number of times a item appears in the list.
+On our number_list above, we can see that there are some duplicates. `.count()` gives us an easy method to count the number of times an item appears in the list.
 
 ![images]({{ site.baseurl }}/counted.png)
 
