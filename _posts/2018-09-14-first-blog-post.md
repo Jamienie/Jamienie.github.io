@@ -70,32 +70,32 @@ Let's go back to our shopping list. Can I remove lipstick from the list using Li
 `del` statement removes an item from a list without printing out the deleted item. When we run `del`, there is no output. 
 `.pop()` statement can also delete an item from the list. But the difference is `.pop()` outputs the item being deleted and deletes it from the list.
 
-![images]({{ site.baseurl }}/pop bread.png)
+![images]({{ site.baseurl }}/images/pop bread.png)
 
 `del` and `.pop()` methods work well when we know the index number of the item that is to be deleted. Sometimes, we don’t know the index number, can we still delete items from the list? Yes, we can. We will need to use `.remove()` to remove the object at its 1st time matches.
 
-![images]({{ site.baseurl }}/removed juice.png)
+![images]({{ site.baseurl }}/images/removed juice.png)
 
 <i><b>Reversing</b></i>
 
 Another useful list method is `.reverse()`. 
 `.reserve()` statement reverses items in place. For example, I want to start shopping from beauty product first,i.e. mascara. We would wirte it as follows:
 
-![images]({{ site.baseurl }}/reversed list.png)
+![images]({{ site.baseurl }}/images/reversed list.png)
 
 <i><b>Sorting</b></i>
 
 Python list has a couple of ways of sorting items. They are `.sort()` and `sorted`. If we want to sort items in place, then we use .sort(). If we want to create an sorted list, we will use sorted().
 
-![images]({{ site.baseurl }}/sort list.png)
+![images]({{ site.baseurl }}/images/sort list.png)
 
-![images]({{ site.baseurl }}/sorted list.png)
+![images]({{ site.baseurl }}/images/sorted list.png)
 
 <i><b>Counting</b></i>
 
 On our number_list above, we can see that there are some duplicates. `.count()` gives us an easy method to count the number of times an item appears in the list.
 
-![images]({{ site.baseurl }}/counted.png)
+![images]({{ site.baseurl }}/images/counted.png)
 
 The list in Python is a very powerful tool and there are a lot more to explore on List. 
 I am very happy to share some of the methods there. I hope you enjoyed it. 
