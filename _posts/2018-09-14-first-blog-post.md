@@ -97,6 +97,6 @@ On our number_list above, we can see that there are some duplicates. `.count()` 
 
 ![images]({{ site.baseurl }}/images/counted.png)
 
-The list in Python is a very powerful tool and there are a lot more to explore on List. 
-I am very happy to share some of the methods there. I hope you enjoyed it. 
+The list in Python is a very powerful tool and there are a lot more to explore. 
+I am very happy to share some of the methods here. 
 
