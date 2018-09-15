@@ -3,7 +3,7 @@ layout: post
 title: Python List
 ---
 
-<p style="color:blue;"> What is a list? .</p>
+<p style="color:blue;"> What is a list? </p>
 
 We all know what a list is. We probably make lists every day -  grocery shopping list, to do list, emails, song playlists, etc. I cannot imagine going into a grocery store without a shopping list.  I would scratch my head standing in front aisles of products without a list. Lists are fundamental to our daily life.
 
@@ -11,7 +11,7 @@ We all know what a list is. We probably make lists every day -  grocery shopping
 
 [source](https://myscres.com/)
 
-<p style="color:red;"> So what is a list in Python? .</p>
+<p style="color:red;"> So what is a list in Python? </p>
 
 Just like a shopping list, a list in Python is a grouping of comma-separated items between square brackets `[]`. Now let us create a grocery shopping list.
 
@@ -23,7 +23,7 @@ Creating a list just is as simple as putting items in square brackets. Let us cr
 
 The list is a very flexible datatype available in Python. When we print out the list (see number_list), the output looks exactly like the list we created. So lists in Python are ordered. Now let’s give a Python list a better definition: A list is an ordered sequence of items.
 
-<p style="color:purple;"> What lists in Python can do? .</p>
+<p style="color:purple;"> What lists in Python can do? </p>
 
 Well, let’s think about our shopping list for a second. In order to make enough time for grocery shopping, I need to know how many items are there in my list. How do we do it? Do we put our figure on the computer screen and count each item in the list? No! We just simply type `len(List Name)`, and we get the answer of 8. 
 
