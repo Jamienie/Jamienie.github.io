@@ -9,7 +9,7 @@ We all know what a list is. We probably make lists every day -  grocery shopping
 
 ![images]({{ site.baseurl }}/images/shopping list.png)
 
-[source](https://myscres.com/)
+-source [grocery list](http://mamagetsitdone.blogspot.com/2013/09/grocery-shopping-with-kids.html)
 
 <p style="color:red;"> So what is a list in Python? </p>
 
