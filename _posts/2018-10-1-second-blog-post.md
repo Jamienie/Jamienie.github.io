@@ -1,4 +1,7 @@
-Why should you get life insurance?
+---
+layout: post
+title: Why should you get life insurance?
+---
 
 What is life insurance? Let’s say, someone purchases a contract from an insurance company, and in return, upon the death of this person, the insurance company will deliver a cheque (a lump sum payment - death benefit) to his/her family, and the contract ends.
 
