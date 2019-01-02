@@ -14,3 +14,5 @@ Let us build a sample case for the purpose of analyzing these 2 life insurance p
 
 1. How much does life insurance cost?
 Like purchasing any product from grocery store, the first thing Joe would like to know is the price. Life insurance is not free. Insurance company will issue the death benefit (a.k.a. the cheque) to his family (spouse, children,etc.) only if he keeps paying to the company while he is alive or in a certain number of years. The good news is that he can choose to pay the payment monthly or annually.
+
+![images](myimages/comparison_of_total_premium.png)
